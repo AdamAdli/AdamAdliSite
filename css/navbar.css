@@ -1,0 +1,48 @@
+.navbar {
+    background-color: lightgray;
+
+    display: inline;
+
+    width: 100%;
+    padding: 16px 16px 16px 16px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    transition: 0.5s;
+}
+
+.navbar a {
+    margin-top: 0px;
+    color: black;
+}
+
+#main-navbar-sidenavbtn {
+    float: right;
+    margin-top: 8px;
+    margin-right: 40px;
+}
+#main-navbar-sidenavbtn  .material-icons {
+    font-size: 48px;
+}
+
+.navcard {
+    text-align: center;
+}
+.navcard img {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    float: left;
+}
+.navcard .navcardtext {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding: 0 0;
+    margin: 0 0;
+    margin-top: 12px;
+}
