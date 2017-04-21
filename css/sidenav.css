@@ -1,15 +1,21 @@
 /* The side navigation menu */
 .sidenav {
+
     height: 100%;
     width: 0;
+
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 0px;
+
+    background-color: whitesmoke;
+    -webkit-box-shadow: -10px 10px 15px #BBBBBB;
+    -moz-box-shadow: -10px 10px 15px #BBBBBB;
+    box-shadow: -10px 10px 15px #BBBBBB;
 }
 
 .sidenav a {
